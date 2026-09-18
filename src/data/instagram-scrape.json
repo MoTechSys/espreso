@@ -1,0 +1,112 @@
+{
+  "_meta": {
+    "source_profile": "https://www.instagram.com/espre__sso",
+    "scrape_status": "PARTIAL_OK",
+    "method": "Instagram public embed endpoint (/espre__sso/embed/) — server-rendered contextJSON parsed from data/raw/instagram_profile_embed.html; media downloaded from scontent CDN; verified by headless-browser render of the embed.",
+    "blocked_endpoints": {
+      "profile_page": "302 → login wall",
+      "web_profile_info_api": "429 rate-limit",
+      "graphql_query": "400",
+      "feed_user_api": "400",
+      "profile_pic_hd_320": "403 (signed for 100px only)",
+      "mirrors_imginn_picuki_pixwox_dumpor_greatfon": "403 / Cloudflare challenge"
+    },
+    "limits": "Embed endpoint exposes the 6 most-recent posts (of 102) + profile header. Bio text, phone, address, hours are NOT exposed by the embed (bio renders as '•' only). Videos: only cover frames are exposed (no mp4 URLs).",
+    "generated_at": "2026-09-18"
+  },
+  "brand": {
+    "handle": "espre__sso",
+    "owner_id": "60278677314",
+    "full_name_raw": "إسبرسو كوفي | 𝙀𝙎𝙋𝙍𝙀𝙎𝙎𝙊 𝘾𝙊𝙁𝙁𝙀𝙀",
+    "name_ar": "إسبرسو كوفي",
+    "name_en": "ESPRESSO COFFEE",
+    "followers": 1408,
+    "posts_count": 102,
+    "is_verified": false,
+    "is_private": false,
+    "has_public_story": false,
+    "biography": null,
+    "external_url": null,
+    "profile_pic_local": "public/assets/images/ig/profile-pic.jpg",
+    "profile_pic_note": "Only 100×100 signed URL exposed; logo was vectorised as public/assets/images/logo.svg (black circle, white line-art cup + steam, script wordmark 'Espresso').",
+    "logo_description": "Black background. White minimalist line-art coffee cup drawn as a curved crescent/swoosh with two thin wavy steam lines rising; the word 'Espresso' in elegant white cursive script beneath; tiny sans-serif handle under it.",
+    "instagram_url": "https://www.instagram.com/espre__sso",
+    "collaborator": { "handle": "mazen_abdu_11", "name": "مازن عبده", "role": "شريك في مشروع إسبرسو كوفي (خريج تقنية المعلومات)" }
+  },
+  "facts_from_captions": {
+    "branches_count": 4,
+    "branches_source": "caption DcHBe3PNKrh: «مشروع أصبح اليوم يمتلك أربعة فروع»",
+    "origin_story": "بدأ المشروع من فكرة بسيطة أثناء دراسة الشريك مازن عبده في الجامعة، وتجاوز تحديات البداية واختلاف ثقافة السوق وصعوبة توفير المواد الخام حتى وصل إلى أربعة فروع.",
+    "founder_quote": "تتوكل على الله، تعمل بالأسباب، وتنطلق.",
+    "location_hint": "جامعة العلوم — الحديدة (ظهرت كموقع في بوست 'يوم جامعي'، اليمن)",
+    "country_guess": "YE",
+    "featured_by": "جمعية أيادي المستقبل الاجتماعية التنموية — برنامج «شباب يصنعون الأثر» (اليوم الدولي للشباب، 12 أغسطس)",
+    "drinks_mentioned": ["آيس تي خوخ (Peach Iced Tea)", "إسبريسو", "قهوة مثلجة (Iced Coffee)"],
+    "brand_palette_observed": "أكواب بلاستيك شفافة بملصق دائري أسود/أبيض، كاونتر رمادي داكن، خشب دافئ، نباتات، لوجو أبيض على الحائط."
+  },
+  "posts": [
+    {
+      "shortcode": "Dcs7NU9NAN5", "type": "GraphVideo", "is_video": true,
+      "taken_at": 1788174159, "likes": 71, "comments": 10,
+      "caption": "يوم جامعي ❣️\nجامعه العلوم. الحديده📍",
+      "cover_local": "public/assets/images/ig/reel-university-day.jpg",
+      "dimensions": { "w": 720, "h": 1280 },
+      "url": "https://www.instagram.com/reel/Dcs7NU9NAN5/"
+    },
+    {
+      "shortcode": "DcHCnHxSXID", "type": "GraphVideo", "is_video": true,
+      "taken_at": 1786903116, "likes": 61, "comments": 30,
+      "coauthors": ["mazen_abdu_11"],
+      "caption": "الحكاية لم تنتهِ عند نقطة اليأس...\n\nفي الجزء الثاني من لقاء الأستاذ مازن عبده، نواصل رحلته مع «إسبرسو كوفي»، ونتوقف عند واحدة من أصعب اللحظات التي مر بها، وكيف كان للتوكل على الله والاستمرار والعمل بالأسباب دور في تجاوزها.\n\nومن تجربة بدأت من فكرة، يوجه مازن رسالته للشباب:\n\n«تتوكل على الله، تعمل بالأسباب، وتنطلق.»\n\n🎬 شاهدوا الجزء الثاني من الحكاية.\n\nولمشاهدة اللقاء كاملًا، تابعوا صفحات جمعية أيادي المستقبل الاجتماعية التنموية.\n\n#شباب_يصنعون_الاثر\n#اليوم_الدولي_للشباب\n#جمعية_أيادي_المستقبل_الاجتماعية_التنموية",
+      "cover_local": "public/assets/images/ig/reel-mazen-part2.jpg",
+      "dimensions": { "w": 720, "h": 1280 },
+      "url": "https://www.instagram.com/reel/DcHCnHxSXID/"
+    },
+    {
+      "shortcode": "DcHBe3PNKrh", "type": "GraphVideo", "is_video": true,
+      "taken_at": 1786902372, "likes": 52, "comments": 28,
+      "coauthors": ["mazen_abdu_11"],
+      "caption": "بدأنا من فكرة… فإلى أين يمكن أن تصل الفكرة؟ 🤎\n\nفي الحلقة الثانية من «شباب يصنعون الأثر»، نلتقي بالأستاذ مازن عبده، خريج تقنية المعلومات والشريك في مشروع «إسبرسو كوفي»، الذي بدأ رحلته وهو لا يزال طالبًا في الجامعة.\n\nحكاية بدأت من فكرة بسيطة، وتجاوزت تحديات البداية، واختلاف ثقافة السوق، وصعوبات توفير المواد الخام، وصولًا إلى مشروع أصبح اليوم يمتلك أربعة فروع.\n\nلكن خلف هذا النجاح كانت هناك لحظات صعبة، وصل فيها إلى نقطة اليأس، قبل أن يجد طريقًا آخر للاستمرار.\n\nفي هذه الحلقة نقترب من تجربته، ومن نظرته للبداية، والعلاقات، والتوكل على الله، والأهم من ذلك… رسالته لكل شاب يحمل حلمًا وما زال مترددًا في الخطوة الأولى.\n\n🎬 شاهدوا الحلقة الثانية من «شباب يصنعون الأثر»\n\nاليوم الدولي للشباب | 12 أغسطس\n\n#شباب_يصنعون_الاثر\n#اليوم_الدولي_للشباب\n#جمعية_أيادي_المستقبل_الاجتماعية_التنموية",
+      "cover_local": "public/assets/images/ig/reel-mazen-ep2.jpg",
+      "dimensions": { "w": 720, "h": 1280 },
+      "url": "https://www.instagram.com/reel/DcHBe3PNKrh/"
+    },
+    {
+      "shortcode": "DcEhHZUSaoB", "type": "GraphVideo", "is_video": true,
+      "taken_at": 1786818070, "likes": 125, "comments": 36,
+      "coauthors": ["mazen_abdu_11"],
+      "caption": "وصلت إلى نقطة اليأس…\n\nجملة تختصر لحظة صعبة في رحلة بدأت من فكرة، وكادت أن تتوقف عند أصعب اختبار.\n\nلكن ماذا حدث بعدها؟\nمن هو ضيفنا الثاني ؟ وما الحكاية التي يحملها ؟\n\n🎬 غدًا.. الحلقة الثانية من «شباب يصنعون الأثر»\n\n#شباب_يصنعون_الاثر\n#اليوم_الدولي_للشباب\n#جمعية_أيادي_المستقبل_الاجتماعية_التنموية",
+      "cover_local": "public/assets/images/ig/reel-teaser.jpg",
+      "dimensions": { "w": 720, "h": 1280 },
+      "url": "https://www.instagram.com/reel/DcEhHZUSaoB/"
+    },
+    {
+      "shortcode": "Db5upBgoG4F", "type": "GraphImage", "is_video": false,
+      "taken_at": 1786456506, "likes": 24, "comments": 5,
+      "caption": "‏ايش خطتكم لمواجهة الحر؟ ☀️ \n‏ خطتنا واضحة 🤎\nايس تي خوخ يعدل مزاجك😏",
+      "image_local_1080": "public/assets/images/ig/post-peach-iced-tea-1080.jpg",
+      "image_local_640": "public/assets/images/ig/post-peach-iced-tea-640.jpg",
+      "dimensions": { "w": 1080, "h": 1440 },
+      "url": "https://www.instagram.com/p/Db5upBgoG4F/"
+    },
+    {
+      "shortcode": "DZX1k4jgJ-3", "type": "GraphVideo", "is_video": true,
+      "taken_at": 1781025772, "likes": 75, "comments": 5,
+      "coauthors": ["mazen_abdu_11"],
+      "caption": "صوت القهوة \nإسبريسو كوفي #كوفي",
+      "cover_local": "public/assets/images/ig/reel-sound-of-coffee.jpg",
+      "dimensions": { "w": 720, "h": 1280 },
+      "url": "https://www.instagram.com/reel/DZX1k4jgJ-3/"
+    }
+  ],
+  "hashtags": ["كوفي", "اسبريسو_كوفي", "شباب_يصنعون_الاثر", "اليوم_الدولي_للشباب", "جمعية_أيادي_المستقبل_الاجتماعية_التنموية"],
+  "contact": {
+    "phone_e164": null,
+    "whatsapp_e164": null,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%D8%A5%D8%B3%D8%A8%D8%B1%D8%B3%D9%88+%D9%83%D9%88%D9%81%D9%8A+%D8%A7%D9%84%D8%AD%D8%AF%D9%8A%D8%AF%D8%A9",
+    "city_ar": "الحديدة",
+    "city_en": "Al Hudaydah",
+    "note": "Bio (where phone/hours usually live) is not exposed by the public embed. Fill from the owner."
+  },
+  "still_missing": ["phone / WhatsApp", "exact branch addresses (4 branches)", "opening hours", "menu prices", "remaining 96 posts (need logged-in session → tools/scrape_instagram.py)"]
+}

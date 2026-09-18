@@ -1,0 +1,223 @@
+{
+  "brand": {
+    "name_ar": "إسبرسو كوفي",
+    "name_en": "ESPRESSO COFFEE",
+    "stylized_en": "𝙀𝙎𝙋𝙍𝙀𝙎𝙎𝙊 𝘾𝙊𝙁𝙁𝙀𝙀",
+    "tagline_ar": "مصنع الرَّوَقان",
+    "tagline_en": "Where the mood is brewed",
+    "philosophy": "ذوق. مزاج. رَوَقان.",
+    "city": "الحديدة",
+    "country": "اليمن",
+    "country_code": "YE",
+    "founded_by": "الأستاذ مازن عبده"
+  },
+  "instagram": {
+    "handle": "espre__sso",
+    "url": "https://www.instagram.com/espre__sso",
+    "followers": 1408,
+    "following": 2,
+    "bio_link": "https://2u.pw/62eIgdM",
+    "bio_text": "مصنع الروقان | ESPRESSO COFFEE\nقهوتنا في:\nالمطراق | جامعة العلوم | حديقة حديدة لاند\nذوق، مزاج، روّقان"
+  },
+  "founder": {
+    "name": "مازن عبده",
+    "title": "الشريك المؤسس",
+    "background": "خريج تقنية معلومات",
+    "quotes": [
+      "تتوكل على الله، تعمل بالأسباب، وتنطلق.",
+      "وصلت إلى نقطة اليأس",
+      "الحكاية لم تنتهِ عند نقطة اليأس",
+      "بدأنا من فكرة… فإلى أين يمكن أن تصل الفكرة؟"
+    ],
+    "media_appearance": {
+      "program": "شباب يصنعون الأثر",
+      "produced_by": "جمعية أيادي المستقبل الاجتماعية التنموية",
+      "occasion": "اليوم الدولي للشباب — 12 أغسطس",
+      "episodes": 2
+    }
+  },
+  "branches": [
+    {
+      "id": "matraq",
+      "name_ar": "المَطراق",
+      "name_en": "Al-Matraq",
+      "role": "الفرع الأصلي — حيث بدأت الحكاية",
+      "address": "شارع المطراق، الحديدة",
+      "notes": "الفرع الأول"
+    },
+    {
+      "id": "uloom",
+      "name_ar": "جامعة العلوم",
+      "name_en": "University of Science",
+      "role": "فرع الطلاب",
+      "address": "جامعة العلوم والتكنولوجيا، الحديدة",
+      "notes": "مذكور في بوست: يوم جامعي — جامعة العلوم، الحديدة"
+    },
+    {
+      "id": "land",
+      "name_ar": "حديقة حديدة لاند",
+      "name_en": "Hodeidah Land",
+      "role": "الفرع الترفيهي — للعائلات والسهرات",
+      "address": "حديقة حديدة لاند، الحديدة",
+      "hashtag": "#hodiedah_land",
+      "notes": "الفرع الأكبر"
+    }
+  ],
+  "signature_products": [
+    {
+      "name_ar": "آيس تي خوخ",
+      "name_en": "Ice Tea Peach",
+      "campaign": "خطتنا لمواجهة الحر — يعدل مزاجك"
+    },
+    {
+      "name_ar": "موهيتو إسبريسو",
+      "name_en": "Mojito Espresso",
+      "note": "الغني عن التعريف"
+    },
+    {
+      "name_ar": "فنجان لا تفقد الأمل",
+      "name_en": "Don't Lose Hope Cup",
+      "description": "فنجان أيقوني بختم اليمن + عبارة عربية وإنجليزية"
+    }
+  ],
+  "hashtags": [
+    "#مصنع_الروقان",
+    "#الحديدة",
+    "#hodiedah_land",
+    "#كافيهات_اليمن",
+    "#كافيهات",
+    "#إكسبلورر",
+    "#explore",
+    "#بورتراايت",
+    "#portrait",
+    "#shotoniphone",
+    "#yemen",
+    "#تقة_بالله_نجاح",
+    "#شباب_يصنعون_الاثر"
+  ],
+  "posts": [
+    {
+      "file": "photos/post-01-icetea-khokh.jpg",
+      "type": "post",
+      "size": "1024x1365",
+      "caption": "ايش خطتكم لمواجهة الحر؟ ☀️ خطتنا واضحة 🤎 ايس تي خوخ يعدل مزاجك😏",
+      "likes": 24,
+      "comments": 7,
+      "date_approx": "أغسطس 2025",
+      "topic": "campaign_summer"
+    },
+    {
+      "file": "photos/post-02-dont-lose-hope.jpg",
+      "type": "post",
+      "size": "720x720",
+      "caption": "فنجان أيقوني — لا تفقد الأمل / Don't lose hope",
+      "topic": "signature_product"
+    },
+    {
+      "file": "photos/post-03-barista.jpg",
+      "type": "post",
+      "size": "1024x768",
+      "caption": "𝙚𝙨𝙥𝙧𝙚𝙨𝙨𝙤... 🤍✨",
+      "likes": 299,
+      "comments": 56,
+      "date_approx": "2023",
+      "topic": "behind_the_bar"
+    },
+    {
+      "file": "photos/post-04-jamiat-uloom-sign.jpg",
+      "type": "post",
+      "size": "480x852",
+      "caption": "يوم جامعي ❣️ جامعة العلوم. الحديدة📍",
+      "likes": 71,
+      "comments": 13,
+      "date_approx": "سبتمبر 2025",
+      "topic": "branch_uloom"
+    },
+    {
+      "file": "photos/reel-01.jpg",
+      "type": "reel",
+      "topic": "branch_uloom",
+      "likes": 71,
+      "comments": 13
+    },
+    {
+      "file": "photos/reel-02.jpg",
+      "type": "reel",
+      "topic": "founder_interview_part2",
+      "caption_snippet": "الحكاية لم تنتهِ عند نقطة اليأس... الجزء الثاني من لقاء الأستاذ مازن عبده",
+      "likes": 61,
+      "comments": 30,
+      "highlight": true
+    },
+    {
+      "file": "photos/reel-03.jpg",
+      "type": "reel",
+      "topic": "founder_interview_teaser",
+      "caption_snippet": "بدأنا من فكرة… فإلى أين يمكن أن تصل الفكرة؟",
+      "likes": 52,
+      "comments": 28
+    },
+    {
+      "file": "photos/reel-04.jpg",
+      "type": "reel",
+      "topic": "founder_quote",
+      "caption_snippet": "وصلت إلى نقطة اليأس!!!",
+      "likes": 125,
+      "comments": 36,
+      "highlight": true
+    },
+    {
+      "file": "photos/reel-05.jpg",
+      "type": "reel",
+      "topic": "cafe_interior",
+      "caption_snippet": "صوت القهوة إسبريسو كوفي",
+      "likes": 75,
+      "comments": 5,
+      "highlight": true,
+      "notes": "يظهر ديكور الفرع الحقيقي — الشعار على الجدار، الرفوف، النباتات، الصوصات"
+    },
+    {
+      "file": "photos/reel-06.jpg",
+      "type": "reel",
+      "topic": "branch_hodeidah_land",
+      "caption_snippet": "#hodiedah_land #espresso",
+      "likes": 152,
+      "comments": 23
+    },
+    {
+      "file": "photos/reel-07.jpg",
+      "type": "reel",
+      "topic": "branch_hodeidah_land",
+      "caption_snippet": "ESPRESSO COFFEE ☕️🤎 فروع حديقة حديدة لاند",
+      "likes": 44,
+      "comments": 11
+    },
+    {
+      "file": "photos/reel-08.jpg",
+      "type": "reel",
+      "likes": 42,
+      "comments": 1
+    },
+    {
+      "file": "photos/reel-09.jpg",
+      "type": "reel",
+      "topic": "cafe_interior_drinks",
+      "likes": 3,
+      "comments": 55,
+      "notes": "كؤوس بشعار Espresso في الفرع"
+    },
+    {
+      "file": "photos/reel-10.jpg",
+      "type": "reel",
+      "likes": 46,
+      "comments": 6
+    }
+  ],
+  "meta": {
+    "compiled_at": "2026-09-18",
+    "compiled_by": "Espresso Coffee Website Project",
+    "total_images": 16,
+    "source": "Instagram @espre__sso via Imginn public viewer",
+    "note": "الصور محفوظة بحقوق الحساب الأصلي — للاستخدام الرسمي للبراند فقط"
+  }
+}

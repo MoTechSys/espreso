@@ -1,0 +1,282 @@
+{
+  "ig/avatar": {
+    "w": 150,
+    "h": 150,
+    "widths": [
+      150
+    ],
+    "lqip": "data:image/webp;base64,UklGRjQAAABXRUJQVlA4ICgAAADQAQCdASoQABAAA4BaJaQAAudcQPSvuAD++b3yt+nV/EXe4hWokAAA",
+    "color": "#080808"
+  },
+  "ig/barista": {
+    "w": 1024,
+    "h": 768,
+    "widths": [
+      400,
+      640,
+      960,
+      1024
+    ],
+    "lqip": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAACwAQCdASoQAAwAA4BaJQBOgB4ZcbZoAP7Kt0xjaO8mob1lEpbNS8rv6RPMnx9ugBBmOUNfKIAAAA==",
+    "color": "#f8f8f8"
+  },
+  "ig/dont-lose-hope": {
+    "w": 720,
+    "h": 720,
+    "widths": [
+      400,
+      640,
+      720
+    ],
+    "lqip": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADQAQCdASoQABAAA4BaJQBOgB9TMhPXAAD3wF9iHOdgDja3Z6TqWjby+w1bz+THU0xSTT53dQ4sPY6R6YQAAA==",
+    "color": "#583838"
+  },
+  "ig/hodeidah-land-sign": {
+    "w": 480,
+    "h": 272,
+    "widths": [
+      400,
+      480
+    ],
+    "lqip": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAADwAQCdASoQAAkAA4BaJZQAAn+sGyhJcwAA/vNQt4TgzXhIpBG3joyqIYh8eC4VAj+N43i4IuQAAA==",
+    "color": "#f8f8f8"
+  },
+  "ig/interior-drinks": {
+    "w": 480,
+    "h": 853,
+    "widths": [
+      400,
+      480
+    ],
+    "lqip": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAABwAwCdASoQABwALrV2u12jqampiYC0SgCdADDgGERFAzLyUAAA/q0iLLl8YN26hhWuiU9dKHZ7XyIhbhp1LDZU7MyuyeLqXAhJ+jsPCEQuz/zp4pD2nHGnbl8TdAaTmYbF8Z7ud35TgBQjy0yzXbnbDAAAAA==",
+    "color": "#080808"
+  },
+  "ig/interior-logo-wall": {
+    "w": 320,
+    "h": 568,
+    "widths": [
+      320
+    ],
+    "lqip": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAAAQBACdASoQABwAPu1qrU8ppiQiMAgBMB2JYwCdAGlw8428YBHYskHQAAD+95etphyl58Rz+QNLy9/3jpcZMFq5IRJPsR/ritF2C/3shf+MOTXTCGkPVigteokrHkeBoAA=",
+    "color": "#282828"
+  },
+  "ig/interior-night": {
+    "w": 320,
+    "h": 569,
+    "widths": [
+      320
+    ],
+    "lqip": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAAAQAwCdASoQABwALrV2u12jqampiYC0SygABc6vDpN6OQAA/vm88luo7dV4np550gjpiIMkI6ZM75x7qC78SDUzVGQAAA==",
+    "color": "#080808"
+  },
+  "ig/interior-sound-of-coffee": {
+    "w": 480,
+    "h": 852,
+    "widths": [
+      400,
+      480
+    ],
+    "lqip": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAAAQBACdASoQABwAPu1kq04ppaQiMAgBMB2JYgCdABuxfZXU9bvOyeXfAAD+5eV4fzwwgeaVt52kGZgVTGR2HTx2/6fQqIz5WUZVMtXR/5tbuzitF8PTG9BRcuufkAGFmncbU+2u/duQ+/Os1X6EdJWVfcLqvNhfbjjwAJGAAAA=",
+    "color": "#282828"
+  },
+  "ig/interior-wide": {
+    "w": 320,
+    "h": 180,
+    "widths": [
+      320
+    ],
+    "lqip": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAADQAQCdASoQAAkAA4BaJZQCdAD0dqVBAAD+9do42WkpG83sHAIrK012MiB4cHvXPU3egAAA",
+    "color": "#080808"
+  },
+  "ig/interview-ep2": {
+    "w": 640,
+    "h": 1136,
+    "widths": [
+      400,
+      640
+    ],
+    "lqip": "data:image/webp;base64,UklGRqoAAABXRUJQVlA4IJ4AAACwBACdASoQABwAPu1iqk2ppaQiMAgBMB2JbACdMoR3JoADQuqSqCddS2FZUzYAAM48K5hstQyA8zxfNcfbl+ANPHq1HWAW72p54YZj9Y+Xz4ixHup4mHvRo0lG2G4hP7NMU4KLW3Yn+IbGz1m1R7ciVcxTB5MDj1djULYQsXGh8SGXqdQg4QY0XJY1c8xGif6DCNNxY/k6VgBQFNAAAA==",
+    "color": "#080808"
+  },
+  "ig/interview-teaser": {
+    "w": 480,
+    "h": 852,
+    "widths": [
+      400,
+      480
+    ],
+    "lqip": "data:image/webp;base64,UklGRqoAAABXRUJQVlA4IJ4AAACQBACdASoQABwAPu1kqk2ppaQiMAgBMB2JbACdMoR3ACUKPt3V4FevNzAiWiAAzjwrmGy1DIDzPF81x9uXuLRB/gXjyaIDVmYYZmF8S3fehefqK1l6N3eKB1HnzpYoWa1FMhATqXsiGViV+1pecaYGH0eMgArbVZZcfQPYy38rHGV2fk2UtLvmplRkNr7f6DFhFkJjq5rOpWZwEgAAAA==",
+    "color": "#080808"
+  },
+  "ig/mazen-despair": {
+    "w": 1080,
+    "h": 1920,
+    "widths": [
+      400,
+      640,
+      960,
+      1080
+    ],
+    "lqip": "data:image/webp;base64,UklGRpYAAABXRUJQVlA4IIoAAACwBACdASoQABwAPu1mq04ppaQiMAgBMB2JbACdMoRwACkJw+iQk83ExcO/zrdAAP7KhTSFigO9y5tFI5iPr7Hh1AGmQH/dw6/VpyaN2hRpJ930DrfEO+uJL/2gzMRvelwO8lUB25ihhS+rLKNnaQdF9nn7GnlNW/+65h6Le9v6xLhCbMysfizegAA=",
+    "color": "#080808"
+  },
+  "ig/mazen-interview-alt": {
+    "w": 828,
+    "h": 1472,
+    "widths": [
+      400,
+      640,
+      828
+    ],
+    "lqip": "data:image/webp;base64,UklGRp4AAABXRUJQVlA4IJIAAACQBACdASoQAB0APu1iqk2ppaQiMAgBMB2JbACdMoR3ACkJvwQp89ZHW7x94AAA/rgSj9lyC28olUV/Wn0BYz3RD+6rlzH7w3o/zLVI5zRpLJawyGFiIFwbzQEHRg87X7Xfjt50f0BwkcV5ZqvqEOtPKPr7h7Njk638516MsayyxIyKnTdwL6WXUl2T+a8ctxwAAA==",
+    "color": "#080808"
+  },
+  "ig/mazen-interview": {
+    "w": 1080,
+    "h": 1920,
+    "widths": [
+      400,
+      640,
+      960,
+      1080
+    ],
+    "lqip": "data:image/webp;base64,UklGRpwAAABXRUJQVlA4IJAAAABQBACdASoQABwAPu1kq04ppaQiMAgBMB2JbACdL1AByYeKg16kkKWYz/QAAP7KhTSFigO9y5tFI5iPr7HhzcF4Aw76OHYVjHJxtTBtwsPNeuqtaNBUTB5QtmO660d3f6RBnRClbrJfyKt/u06B8ZnRVzZzxRU1DhztlWpxZb6nqy/rzO7SVMVkmQSasqkAAAA=",
+    "color": "#080808"
+  },
+  "ig/peach-iced-tea": {
+    "w": 1024,
+    "h": 1365,
+    "widths": [
+      400,
+      640,
+      960,
+      1024
+    ],
+    "lqip": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAACwAwCdASoQABUAPu1iqk2ppaQiMAgBMB2JZwC7ABrGkQTEohS/AAD+P1OAQRx+dun93++jd6wQ84XRVMeLDuo3gmg7q6p2kbpZ+Es12lKW9MhxcPNOv9zx5B1sQAAA",
+    "color": "#c8c8c8"
+  },
+  "ig/sound-of-coffee": {
+    "w": 640,
+    "h": 1136,
+    "widths": [
+      400,
+      640
+    ],
+    "lqip": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAABQBACdASoQABwAPu1kq04ppaQiMAgBMB2JYgCdABuyu7204MZ3uABmIIhAAP7l5Xh/PDCB5p2w25qhZ36JtvJJJATkzgZAwMoyph2kikGSEK28dCgXlMKNcWi+Qdw60EBwgwZxYKyVS87aorSeC+SPGn04kguyaZyQAA==",
+    "color": "#282828"
+  },
+  "ig/uloom-sign": {
+    "w": 480,
+    "h": 852,
+    "widths": [
+      400,
+      480
+    ],
+    "lqip": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAAAwBACdASoQABwAPu1iqU2ppaQiMAgBMB2JZgCdACFU84EbPm9zsLkCD8AA/cW0ggutNcyPokR1+ae4QxPFiTU++pLYoYhCHn0Lw5W8g/l0+cnD+wpSPl2IAhO0drAia8Y70GA9HqFLMkdBq7si/skTDuwAAA==",
+    "color": "#681808"
+  },
+  "ig/university-day": {
+    "w": 640,
+    "h": 1136,
+    "widths": [
+      400,
+      640
+    ],
+    "lqip": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAAAwBACdASoQABwAPu1iqU2ppaQiMAgBMB2JZgCdACFU84EYrBHSNMKPCsAA/cW0ggutNcyPokR1+adqy9DENkGT6Ae13dzMybqXsT3RRTgfZ/b/b0Wo4M6OUGuG4bMfoaNcaog1AWgAb7icceLKT8SrqK2IC0AA",
+    "color": "#681808"
+  },
+  "stock/beans-macro": {
+    "w": 1024,
+    "h": 540,
+    "widths": [
+      400,
+      640,
+      960,
+      1024
+    ],
+    "lqip": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAADwAQCdASoQAAgAA4BaJYgCdAEVzsv94JAA/u6TV4xCUzJl/cphgmObwju+gy22eQAAAA==",
+    "color": "#482818"
+  },
+  "stock/cappuccino-heart": {
+    "w": 1024,
+    "h": 1536,
+    "widths": [
+      400,
+      640,
+      960,
+      1024
+    ],
+    "lqip": "data:image/webp;base64,UklGRoQAAABXRUJQVlA4IHgAAAAQBACdASoQABgAPu1kqk2ppaQiMAgBMB2JYgC7AA7qN36/ytm6KX6UAAD+5CH+vG0cHcihgHGb7oCK3lkjw8cnS3WynDejpGNV7z40FmM94hQPJwc0599gUCZCbML+bSso0cnzrxRAWsh4dgXNW+teSnWqZwUQ0AA=",
+    "color": "#282828"
+  },
+  "stock/espresso-crema": {
+    "w": 1024,
+    "h": 682,
+    "widths": [
+      400,
+      640,
+      960,
+      1024
+    ],
+    "lqip": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAAAwAgCdASoQAAsAA4BaJYgCdADPhuBga8CuAAD2r5Z+k0dSEhOYpeTLfnczZIOTFMpA0CuprR1DnlJEWD9mgR+y5+6c7Zp3rAAAAA==",
+    "color": "#080808"
+  },
+  "stock/espresso-flatlay": {
+    "w": 1024,
+    "h": 682,
+    "widths": [
+      400,
+      640,
+      960,
+      1024
+    ],
+    "lqip": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAACQAQCdASoQAAsAA4BaJYwCdADA6AAA/toWKmOmRjK3/NHeQoJYkRR9KsPC2dhRrGDPQ8AA",
+    "color": "#786858"
+  },
+  "stock/hero-beans": {
+    "w": 728,
+    "h": 485,
+    "widths": [
+      400,
+      640,
+      728
+    ],
+    "lqip": "data:image/webp;base64,UklGRjQAAABXRUJQVlA4ICgAAADQAQCdASoQAAsAA4BaJYwAAudNb3dEAAD+9os9VID0TaNtvVToAAAA",
+    "color": "#181818"
+  },
+  "stock/latte-leaf": {
+    "w": 728,
+    "h": 1092,
+    "widths": [
+      400,
+      640,
+      728
+    ],
+    "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADwAwCdASoQABgAPu1iqU2ppaOiMAgBMB2JZQDKACHgX64ttD/eB7C6AP7ugftLg5TtGutHVLTOvcIVj32FnyvWZDs9ctR5/WFVrxJzAAA=",
+    "color": "#181818"
+  },
+  "stock/latte-swan": {
+    "w": 1024,
+    "h": 682,
+    "widths": [
+      400,
+      640,
+      960,
+      1024
+    ],
+    "lqip": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADwAQCdASoQAAsAA4BaJQBOgCP01Un7FagA+W1vTGFMdLorvuwWGzZ0VBhkVbr7o0c5mWJ/2UAteBAH90oul3yNu9swiksa8IAAAA==",
+    "color": "#081818"
+  },
+  "stock/portafilter": {
+    "w": 1024,
+    "h": 682,
+    "widths": [
+      400,
+      640,
+      960,
+      1024
+    ],
+    "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAAAQAgCdASoQAAsAA4BaJZQCdADRuRFkTt3QAP7CFgBoaNeYmqsL8zun9yd3fO+ofPkweBpDIN5V3uvpUQZsrKTMP/9cAAAA",
+    "color": "#f8f8f8"
+  }
+}

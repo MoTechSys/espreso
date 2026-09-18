@@ -1,0 +1,19 @@
+{
+  "name": "espresso-coffee",
+  "version": "2.0.0",
+  "description": "إسبرسو كوفي | ESPRESSO COFFEE — مصنع الرَّوَقان · Luxury multi-page static site (Al Hudaydah, Yemen)",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "images": "node tools/build-images.mjs",
+    "sync:ig": "node tools/sync-instagram.mjs --images && node tools/build-images.mjs",
+    "serve": "vite preview --port 3000 --host 0.0.0.0"
+  },
+  "devDependencies": {
+    "sharp": "^0.35.4",
+    "vite": "^8.3.0"
+  }
+}

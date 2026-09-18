@@ -1,0 +1,168 @@
+{
+  "handle": "espre__sso",
+  "synced_at": "2026-09-18T06:31:43.223Z",
+  "profile": {
+    "handle": "espre__sso",
+    "owner_id": "60278677314",
+    "full_name_raw": "إسبرسو كوفي | 𝙀𝙎𝙋𝙍𝙀𝙎𝙎𝙊 𝘾𝙊𝙁𝙁𝙀𝙀",
+    "name_ar": "إسبرسو كوفي",
+    "name_en": "ESPRESSO COFFEE",
+    "followers": 1408,
+    "posts_count": 102,
+    "is_verified": false,
+    "is_private": false,
+    "has_public_story": false,
+    "biography": null,
+    "external_url": null,
+    "profile_pic_local": "public/assets/images/ig/profile-pic.jpg",
+    "profile_pic_note": "Only 100×100 signed URL exposed; logo was vectorised as public/assets/images/logo.svg (black circle, white line-art cup + steam, script wordmark 'Espresso').",
+    "logo_description": "Black background. White minimalist line-art coffee cup drawn as a curved crescent/swoosh with two thin wavy steam lines rising; the word 'Espresso' in elegant white cursive script beneath; tiny sans-serif handle under it.",
+    "instagram_url": "https://www.instagram.com/espre__sso",
+    "collaborator": {
+      "handle": "mazen_abdu_11",
+      "name": "مازن عبده",
+      "role": "شريك في مشروع إسبرسو كوفي (خريج تقنية المعلومات)"
+    }
+  },
+  "posts": [
+    {
+      "shortcode": "Dcs7NU9NAN5",
+      "type": "GraphVideo",
+      "is_video": true,
+      "taken_at": 1788174159,
+      "likes": 71,
+      "comments": 10,
+      "caption": "يوم جامعي ❣️\nجامعه العلوم. الحديده📍",
+      "cover_local": "public/assets/images/ig/reel-university-day.jpg",
+      "dimensions": {
+        "w": 720,
+        "h": 1280
+      },
+      "url": "https://www.instagram.com/reel/Dcs7NU9NAN5/",
+      "thumbnail_url": "https://scontent-iad3-1.cdninstagram.com/v/t51.71878-15/789264175_4425559777686376_8342639520953829380_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_cat=104&_nc_oc=Q6cZ2gGKkzDQgX4-QXUV8jU0Ka8Pp89YRVQ-GGNvmpOtD7fbiii0cxvPtkjd994tmdqlxdQ&_nc_ohc=BcfVNgd5h-gQ7kNvwEkVhNz&_nc_gid=SEBlsDNW9dmcylcJGN9xWA&edm=ALY_pVYBAAAA&ccb=7-5&oh=00_AQJ788q7fwzVe9eodjOpmzevyyJagFZBEQccygK8I0SbVQ&oe=6AB294BF&_nc_sid=57e406",
+      "thumbnail_w": 640,
+      "thumbnail_h": 1136,
+      "author_id": 34037805151,
+      "synced_at": "2026-09-18T06:31:42.533Z",
+      "local": "ig/feed/Dcs7NU9NAN5"
+    },
+    {
+      "shortcode": "DcHCnHxSXID",
+      "type": "GraphVideo",
+      "is_video": true,
+      "taken_at": 1786903116,
+      "likes": 61,
+      "comments": 30,
+      "coauthors": [
+        "mazen_abdu_11"
+      ],
+      "caption": "الحكاية لم تنتهِ عند نقطة اليأس...\n\nفي الجزء الثاني من لقاء الأستاذ مازن عبده، نواصل رحلته مع «إسبرسو كوفي»، ونتوقف عند واحدة من أصعب اللحظات التي مر بها، وكيف كان للتوكل على الله والاستمرار والعمل بالأسباب دور في تجاوزها.\n\nومن تجربة بدأت من فكرة، يوجه مازن رسالته للشباب:\n\n«تتوكل على الله، تعمل بالأسباب، وتنطلق.»\n\n🎬 شاهدوا الجزء الثاني من الحكاية.\n\nولمشاهدة اللقاء كاملًا، تابعوا صفحات جمعية أيادي المستقبل الاجتماعية التنموية.\n\n#شباب_يصنعون_الاثر\n#اليوم_الدولي_للشباب\n#جمعية_أيادي_المستقبل_الاجتماعية_التنموية",
+      "cover_local": "public/assets/images/ig/reel-mazen-part2.jpg",
+      "dimensions": {
+        "w": 720,
+        "h": 1280
+      },
+      "url": "https://www.instagram.com/reel/DcHCnHxSXID/",
+      "thumbnail_url": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/777531098_18104427011521701_1172422943793728691_n.jpg?stp=dst-jpg_e35_p640x640_sh2.08_tt6&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2gHWQ9afdrEgbm4ItiPfKuegMbSzDqEUXDow2UKed42I_SXbqRf9nWC3yRs1MAWcpmM&_nc_ohc=qvxOTsqhvOoQ7kNvwFlkQ1l&_nc_gid=u5mpHHpAD5eS5YkKJC5aCA&edm=ALY_pVYBAAAA&ccb=7-5&oh=00_AQJxt1NrdYhVOUDysWfB-tg7AtbFbAV3iuOJTJFtM3VdIg&oe=6AB2C102&_nc_sid=57e406",
+      "thumbnail_w": 640,
+      "thumbnail_h": 1137,
+      "author_id": 45650521700,
+      "synced_at": "2026-09-18T06:31:42.670Z",
+      "local": "ig/feed/DcHCnHxSXID"
+    },
+    {
+      "shortcode": "DcHBe3PNKrh",
+      "type": "GraphVideo",
+      "is_video": true,
+      "taken_at": 1786902372,
+      "likes": 52,
+      "comments": 28,
+      "coauthors": [
+        "mazen_abdu_11"
+      ],
+      "caption": "⁨\tبدأنا من فكرة… فإلى أين يمكن أن تصل الفكرة؟ 🤎\n\nفي الحلقة الثانية من «شباب يصنعون الأثر»، نلتقي بالأستاذ مازن عبده، خريج تقنية المعلومات والشريك في مشروع «إسبرسو كوفي»، الذي بدأ رحلته وهو لا يزال طالبًا في الجامعة.\n\nحكاية بدأت من فكرة بسيطة، وتجاوزت تحديات البداية، واختلاف ثقافة السوق، وصعوبات توفير المواد الخام، وصولًا إلى مشروع أصبح اليوم يمتلك أربعة فروع.\n\nلكن خلف هذا النجاح كانت هناك لحظات صعبة، وصل فيها إلى نقطة اليأس، قبل أن يجد طريقًا آخر للاستمرار.\n\nفي هذه الحلقة نقترب من تجربته، ومن نظرته للبداية، والعلاقات، والتوكل على الله، والأهم من ذلك… رسالته لكل شاب يحمل حلمًا وما زال مترددًا في الخطوة الأولى.\n\n🎬 شاهدوا الحلقة الثانية من «شباب يصنعون الأثر»\n\nاليوم الدولي للشباب | 12 أغسطس\n\n#شباب_يصنعون_الاثر\n#اليوم_الدولي_للشباب\n#جمعية_أيادي_المستقبل_الاجتماعية_التنموية",
+      "cover_local": "public/assets/images/ig/reel-mazen-ep2.jpg",
+      "dimensions": {
+        "w": 720,
+        "h": 1280
+      },
+      "url": "https://www.instagram.com/reel/DcHBe3PNKrh/",
+      "thumbnail_url": "https://scontent-iad3-1.cdninstagram.com/v/t51.71878-15/773450195_2960285737654126_4121896430082441261_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_cat=110&_nc_oc=Q6cZ2gHM0vyC5gWhq8BqT6fSF4a_EdGPNdO8GuSl2TKjx0lQwrsnOK-zvmLonI2FehnfMYk&_nc_ohc=xRv_wBUrBFQQ7kNvwG4iVqV&_nc_gid=HY-tkVLvFfPewWyJ2scuIQ&edm=ALY_pVYBAAAA&ccb=7-5&oh=00_AQKN_ovlfrOqDHPA8A37yltdgZ0I4FWNlEcGH1EwP81k8g&oe=6AB2C7D9&_nc_sid=57e406",
+      "thumbnail_w": 640,
+      "thumbnail_h": 1136,
+      "author_id": 45650521700,
+      "synced_at": "2026-09-18T06:31:42.806Z",
+      "local": "ig/feed/DcHBe3PNKrh"
+    },
+    {
+      "shortcode": "DcEhHZUSaoB",
+      "type": "GraphVideo",
+      "is_video": true,
+      "taken_at": 1786818070,
+      "likes": 125,
+      "comments": 36,
+      "coauthors": [
+        "mazen_abdu_11"
+      ],
+      "caption": "وصلت إلى نقطة اليأس…\n\nجملة تختصر لحظة صعبة في رحلة بدأت من فكرة، وكادت أن تتوقف عند أصعب اختبار.\n\nلكن ماذا حدث بعدها؟\nمن هو ضيفنا الثاني ؟ وما الحكاية التي يحملها ؟\n\n🎬 غدًا.. الحلقة الثانية من «شباب يصنعون الأثر»\n\n#شباب_يصنعون_الاثر\n#اليوم_الدولي_للشباب\n#جمعية_أيادي_المستقبل_الاجتماعية_التنموية",
+      "cover_local": "public/assets/images/ig/reel-teaser.jpg",
+      "dimensions": {
+        "w": 720,
+        "h": 1280
+      },
+      "url": "https://www.instagram.com/reel/DcEhHZUSaoB/",
+      "thumbnail_url": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/776747337_18104290538521701_2056429137789575228_n.jpg?stp=dst-jpg_e35_p640x640_sh2.08_tt6&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2gEQTeV8X9ekSWXGOwRXm_wLqZIGWV3I8UX0UvYQ7cPxYzHexeWZkyIAXCVwJJ4kMLw&_nc_ohc=FJxn7gcKnksQ7kNvwHfgca6&_nc_gid=B8Z48L4svByDa-3oDjDXYg&edm=ALY_pVYBAAAA&ccb=7-5&oh=00_AQKLLiqr2jsqKP0SabPGmf6fE9K2K8YguLR_w0VLNSwZHA&oe=6AB2B501&_nc_sid=57e406",
+      "thumbnail_w": 640,
+      "thumbnail_h": 1137,
+      "author_id": 45650521700,
+      "synced_at": "2026-09-18T06:31:42.930Z",
+      "local": "ig/feed/DcEhHZUSaoB"
+    },
+    {
+      "shortcode": "Db5upBgoG4F",
+      "type": "GraphImage",
+      "is_video": false,
+      "taken_at": 1786456506,
+      "likes": 24,
+      "comments": 5,
+      "caption": "‏ايش خطتكم لمواجهة الحر؟ ☀️ \n‏ خطتنا واضحة 🤎\nايس تي خوخ يعدل مزاجك😏",
+      "image_local_1080": "public/assets/images/ig/post-peach-iced-tea-1080.jpg",
+      "image_local_640": "public/assets/images/ig/post-peach-iced-tea-640.jpg",
+      "dimensions": {
+        "w": 1080,
+        "h": 1440
+      },
+      "url": "https://www.instagram.com/p/Db5upBgoG4F/",
+      "thumbnail_url": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/773028508_17987643579013315_8731161107881876785_n.jpg?stp=dst-jpg_e35_p640x640_sh2.08_tt6&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2gF-xdkc_iI1y2GhwyzCLJemhEUWOq0ROHZhHlCAMqDdugwuvso05BWL45CaKCJO2Qg&_nc_ohc=j08IDXFND9sQ7kNvwFaaFAo&_nc_gid=bMLPVurOwk7DsA2ZwCDgtg&edm=ALY_pVYBAAAA&ccb=7-5&oh=00_AQJ7iDxgq04CamgspkZusUQB6ehyplnhHd-C-YouNbsbMw&oe=6AB29C24&_nc_sid=57e406",
+      "thumbnail_w": 640,
+      "thumbnail_h": 853,
+      "author_id": 60278677314,
+      "synced_at": "2026-09-18T06:31:43.045Z",
+      "local": "ig/feed/Db5upBgoG4F"
+    },
+    {
+      "shortcode": "DZX1k4jgJ-3",
+      "type": "GraphVideo",
+      "is_video": true,
+      "taken_at": 1781025772,
+      "likes": 75,
+      "comments": 5,
+      "coauthors": [
+        "mazen_abdu_11"
+      ],
+      "caption": "صوت القهوة \nإسبريسو كوفي #كوفي",
+      "cover_local": "public/assets/images/ig/reel-sound-of-coffee.jpg",
+      "dimensions": {
+        "w": 720,
+        "h": 1280
+      },
+      "url": "https://www.instagram.com/reel/DZX1k4jgJ-3/",
+      "thumbnail_url": "https://scontent-iad3-2.cdninstagram.com/v/t51.71878-15/721625992_981395538103103_8463289305142047229_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_cat=111&_nc_oc=Q6cZ2gE-MBBNIt6QhDQfnj0yJ2TFdKj6VGYFFishpTVi2bVOeCPaLWf48zVcKq1LWqqCwCQ&_nc_ohc=8OsmrvnZhecQ7kNvwFMpc2O&_nc_gid=YCghXOq0DveFz4iLu2EjHA&edm=ALY_pVYBAAAA&ccb=7-5&oh=00_AQIoD3wTrCBCPVp8vlGd0ApWZcQuIegzGJl-1AYnHZBQZA&oe=6AB2A8AF&_nc_sid=57e406",
+      "thumbnail_w": 640,
+      "thumbnail_h": 1136,
+      "author_id": 50290427252,
+      "synced_at": "2026-09-18T06:31:43.191Z",
+      "local": "ig/feed/DZX1k4jgJ-3"
+    }
+  ]
+}
