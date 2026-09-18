@@ -29,8 +29,8 @@ const pages = Object.fromEntries(
 
 export default defineConfig({
   plugins: [partials()],
-  server: { host: '0.0.0.0', port: 3000, strictPort: true },
-  preview: { host: '0.0.0.0', port: 3000, strictPort: true },
+  server: { host: '0.0.0.0', port: 3000, strictPort: true, allowedHosts: true },
+  preview: { host: '0.0.0.0', port: 3000, strictPort: true, allowedHosts: true },
   build: {
     target: 'es2020',
     cssCodeSplit: false,

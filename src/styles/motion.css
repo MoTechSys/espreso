@@ -1,0 +1,74 @@
+/* =====================================================================
+   Motion layer — luxury micro-interactions (all GPU-friendly, reduced-motion safe)
+   ===================================================================== */
+
+/* Hero parallax + ken-burns handled via CSS var --py set by JS */
+.hero__media { will-change: transform; transform: translate3d(0, calc(var(--py, 0) * 0.3px), 0) scale(1.02); }
+.hero { clip-path: inset(0); }
+.hero__content { transform: translate3d(0, calc(var(--py, 0) * 0.18px), 0); opacity: calc(1 - var(--py, 0) / 520); }
+
+/* Marquee sizing */
+.marquee { padding-block: 1.25rem; border-block: 1px solid var(--c-line); background: linear-gradient(90deg, transparent, rgb(216 180 122 / 0.04), transparent); }
+.marquee__item { font-family: var(--f-display); font-size: clamp(1.1rem, 0.9rem + 1.5vw, 1.8rem); color: var(--c-sand); white-space: nowrap; display: inline-flex; align-items: center; gap: 2rem; }
+.marquee__item i { width: 0.35rem; height: 0.35rem; border-radius: 50%; background: var(--c-gold); display: inline-block; box-shadow: 0 0 10px var(--c-gold); }
+.marquee__track { gap: 2rem; animation-duration: 36s; }
+
+/* Magnetic buttons (JS sets --mx/--my) */
+.btn--gold, .btn--ghost { transform: translate3d(calc(var(--mx, 0) * 1px), calc(var(--my, 0) * 1px), 0); }
+.btn--gold::after { content: ''; position: absolute; inset: 0; border-radius: inherit; background: radial-gradient(circle at var(--px, 50%) var(--py2, 50%), rgb(255 255 255 / 0.35), transparent 45%); opacity: 0; transition: opacity var(--t-base); mix-blend-mode: overlay; pointer-events: none; }
+.btn--gold:hover::after { opacity: 1; }
+
+/* Tilt cards (JS sets --rx/--ry) */
+.tilt { transform: perspective(900px) rotateX(calc(var(--rx, 0) * 1deg)) rotateY(calc(var(--ry, 0) * 1deg)); transition: transform 0.5s var(--ease-out); transform-style: preserve-3d; }
+.tilt:hover { transition: transform 0.08s linear; }
+.tilt::after { content: ''; position: absolute; inset: 0; border-radius: inherit; pointer-events: none; background: radial-gradient(circle at var(--px, 50%) var(--py2, 50%), rgb(216 180 122 / 0.16), transparent 55%); opacity: 0; transition: opacity var(--t-base); }
+.tilt:hover::after { opacity: 1; }
+
+/* Section titles: gold underline sweep */
+.title { position: relative; }
+.title::after { content: ''; display: block; width: 3.5rem; height: 2px; margin-top: 1rem; background: var(--g-gold); transform: scaleX(0); transform-origin: var(--o, left); transition: transform 0.9s var(--ease-out) 0.2s; }
+html[dir='rtl'] .title::after { --o: right; }
+.is-in .title::after, .title.is-in::after { transform: scaleX(1); }
+.head--center .title::after { margin-inline: auto; transform-origin: center; }
+
+/* Split text reveal for lede paragraphs */
+.reveal--words .w { display: inline-block; opacity: 0; transform: translateY(0.6em); transition: opacity 0.7s var(--ease-out), transform 0.7s var(--ease-out); transition-delay: calc(var(--i) * 25ms); }
+.reveal--words.is-in .w { opacity: 1; transform: none; }
+
+/* Dish card hover lift with gold rim */
+.dish { transition: transform 0.6s var(--ease-out), box-shadow 0.6s var(--ease-out); }
+.dish:hover { transform: translateY(-6px); box-shadow: 0 30px 60px -20px rgb(0 0 0 / 0.8), 0 0 0 1px rgb(216 180 122 / 0.35); }
+.dish__price { position: relative; }
+.dish__price::before { content: ''; position: absolute; inset: -0.3rem -0.6rem; border-radius: var(--r-full); background: rgb(216 180 122 / 0.1); opacity: 0; transition: opacity var(--t-base); z-index: -1; }
+.dish:hover .dish__price::before { opacity: 1; }
+
+/* Gallery tile: shine sweep */
+.tile::before { content: ''; position: absolute; inset: 0; z-index: 2; background: linear-gradient(115deg, transparent 30%, rgb(255 255 255 / 0.12) 50%, transparent 70%); transform: translateX(-120%); transition: transform 0.9s var(--ease-lux); pointer-events: none; }
+.tile:hover::before { transform: translateX(120%); }
+
+/* Progress bar */
+.progress { position: fixed; top: 0; inset-inline: 0; height: 2px; z-index: 950; background: var(--g-gold); transform-origin: var(--o, left); transform: scaleX(var(--p, 0)); pointer-events: none; }
+html[dir='rtl'] .progress { --o: right; }
+
+/* Floating ambient particles (steam) */
+.steam { position: absolute; inset: 0; pointer-events: none; overflow: hidden; z-index: 0; }
+.steam i { position: absolute; bottom: -10%; width: 6px; height: 6px; border-radius: 50%; background: rgb(216 180 122 / 0.35); filter: blur(2px); animation: steam var(--d, 12s) linear var(--delay, 0s) infinite; left: var(--x, 50%); }
+@keyframes steam { 0% { transform: translateY(0) scale(0.6); opacity: 0; } 20% { opacity: 0.8; } 100% { transform: translateY(-110vh) translateX(var(--dx, 30px)) scale(1.4); opacity: 0; } }
+
+/* Number counters glow */
+[data-count] { text-shadow: 0 0 24px rgb(216 180 122 / 0.25); }
+
+/* Hero mark idle float */
+.hero__mark { animation: floaty 7s ease-in-out infinite; }
+@keyframes floaty { 50% { transform: translateY(-6px); } }
+
+/* Language switch fade */
+html.is-switching body { opacity: 0; transition: opacity 0.35s; }
+
+/* Reduced motion — kill everything expensive */
+@media (prefers-reduced-motion: reduce) {
+  .hero__media, .hero__content, .btn--gold, .btn--ghost, .tilt { transform: none !important; opacity: 1 !important; }
+  .steam, .tile::before, .hero__mark { animation: none !important; display: none; }
+  .title::after { transform: scaleX(1); transition: none; }
+  .reveal--words .w { opacity: 1; transform: none; transition: none; }
+}

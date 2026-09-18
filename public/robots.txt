@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://espresso-coffee.pages.dev/sitemap.xml

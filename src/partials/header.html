@@ -1,0 +1,48 @@
+<div class="loader" aria-hidden="true">
+  <div class="loader__mark"><!-- @include logo --></div>
+  <div class="loader__line"></div>
+</div>
+
+<a class="visually-hidden" href="#main" data-ar="تخطَّ إلى المحتوى" data-en="Skip to content">تخطَّ إلى المحتوى</a>
+
+<header class="header">
+  <div class="container container--wide header__inner">
+    <a href="/" class="brand" aria-label="Espresso Coffee">
+      <span class="brand__mark"><!-- @include logo --></span>
+      <span class="brand__text">
+        <span class="brand__ar" data-ar="إسبرسو كوفي" data-en="Espresso Coffee">إسبرسو كوفي</span>
+        <span class="brand__en" data-ar="ESPRESSO COFFEE" data-en="إسبرسو كوفي · مصنع الرَّوَقان">ESPRESSO COFFEE</span>
+      </span>
+    </a>
+
+    <nav class="nav" aria-label="Main">
+      <a href="/" data-page="home" data-i18n="nav.home">الرئيسية</a>
+      <a href="/menu.html" data-page="menu" data-i18n="nav.menu">القائمة</a>
+      <a href="/story.html" data-page="story" data-i18n="nav.story">حكايتنا</a>
+      <a href="/branches.html" data-page="branches" data-i18n="nav.branches">الفروع</a>
+      <a href="/gallery.html" data-page="gallery" data-i18n="nav.gallery">الأجواء</a>
+      <a href="/contact.html" data-page="contact" data-i18n="nav.contact">تواصل</a>
+    </nav>
+
+    <div class="header__actions">
+      <span class="status" data-status aria-live="polite"><span class="status__dot"></span><span data-status-text></span></span>
+      <button type="button" class="lang" data-lang-toggle aria-label="Switch language">EN</button>
+      <button type="button" class="burger" aria-expanded="false" aria-controls="drawer" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<div class="drawer" id="drawer">
+  <nav aria-label="Mobile">
+    <a href="/" data-page="home" data-i18n="nav.home">الرئيسية</a>
+    <a href="/menu.html" data-page="menu" data-i18n="nav.menu">القائمة</a>
+    <a href="/story.html" data-page="story" data-i18n="nav.story">حكايتنا</a>
+    <a href="/branches.html" data-page="branches" data-i18n="nav.branches">الفروع</a>
+    <a href="/gallery.html" data-page="gallery" data-i18n="nav.gallery">الأجواء</a>
+    <a href="/contact.html" data-page="contact" data-i18n="nav.contact">تواصل</a>
+  </nav>
+  <div class="drawer__foot">
+    <a class="btn btn--gold btn--sm" data-link="wa"><span data-icon="whatsapp"></span><span data-i18n="cta.whatsapp">اطلب عبر واتساب</span></a>
+    <a class="btn btn--ghost btn--sm" data-link="ig"><span data-icon="instagram"></span><span>@espre__sso</span></a>
+  </div>
+</div>
