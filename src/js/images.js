@@ -30,6 +30,28 @@ export function picture(id, o = {}) {
 </div>`;
 }
 
+/**
+ * Art-directed hero: portrait source on phones, landscape on wide screens.
+ * hero(portraitId, landscapeId, { pos })
+ */
+export function hero(portraitId, landscapeId, o = {}) {
+  const P = manifest[portraitId], Lm = manifest[landscapeId ?? portraitId];
+  if (!P) return '';
+  const set = (m, id, ext) => m.widths.map((w) => `${BASE}${id}-${w}.${ext} ${w}w`).join(', ');
+  const bp = '(min-width: 48em)';
+  const style = `--ph:${P.color};--lqip:url(${P.lqip});${o.pos ? `--pos:${o.pos};` : ''}`;
+  return `<div class="pic" style="${style}">
+  <picture>
+    ${Lm && landscapeId ? `<source media="${bp}" type="image/avif" srcset="${set(Lm, landscapeId, 'avif')}" sizes="100vw">
+    <source media="${bp}" type="image/webp" srcset="${set(Lm, landscapeId, 'webp')}" sizes="100vw">
+    <source media="${bp}" srcset="${set(Lm, landscapeId, 'jpg')}" sizes="100vw">` : ''}
+    <source type="image/avif" srcset="${set(P, portraitId, 'avif')}" sizes="100vw">
+    <source type="image/webp" srcset="${set(P, portraitId, 'webp')}" sizes="100vw">
+    <img src="${BASE}${portraitId}-${P.widths.at(-1)}.jpg" srcset="${set(P, portraitId, 'jpg')}" sizes="100vw" width="${P.w}" height="${P.h}" alt="" loading="eager" fetchpriority="high" decoding="async" data-lqip ${o.pos ? `style="object-position:${o.pos}"` : ''}>
+  </picture>
+</div>`;
+}
+
 export function src(id, w) {
   const m = manifest[id];
   if (!m) return '';

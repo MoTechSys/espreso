@@ -166,11 +166,11 @@ html[lang='ar'] .badge { letter-spacing: 0; font-weight: 500; }
 
 /* — marquee — */
 .marquee { overflow: hidden; -webkit-mask: linear-gradient(90deg, transparent, #000 10%, #000 90%, transparent); mask: linear-gradient(90deg, transparent, #000 10%, #000 90%, transparent); }
-.marquee__track { display: flex; gap: 3rem; width: max-content; animation: marquee 40s linear infinite; }
+.marquee__track { display: flex; gap: 3rem; width: max-content; direction: ltr; animation: marquee 40s linear infinite; }
 .marquee:hover .marquee__track { animation-play-state: paused; }
 @keyframes marquee { to { transform: translateX(-50%); } }
-html[dir='rtl'] .marquee__track { animation-name: marquee-rtl; }
-@keyframes marquee-rtl { to { transform: translateX(50%); } }
+html[dir='rtl'] .marquee { direction: ltr; }
+html[dir='rtl'] .marquee__item { direction: rtl; }
 @media (prefers-reduced-motion: reduce) { .marquee__track { animation: none; } }
 
 /* — misc — */

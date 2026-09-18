@@ -71,7 +71,7 @@ export const branches = [
     role: { ar: 'الفرع الأصلي — حيث بدأت الحكاية', en: 'The original — where the story began' },
     address: { ar: 'شارع المطراق، الحديدة', en: 'Al-Matraq Street, Al Hudaydah' },
     desc: { ar: 'أول كوب صُبّ هنا. زبائن الحي، طقوس الصباح، وإسبريسو مضبوط على مزاج المطراق.', en: 'The first cup was poured here. Neighbourhood regulars, morning rituals, espresso dialled to the Matraq mood.' },
-    img: 'ig/interior-logo-wall',
+    img: 'ig/interior-sound-of-coffee',
     maps: 'https://www.google.com/maps/search/?api=1&query=Espresso+Coffee+Al+Matraq+Al+Hudaydah',
     featured: true,
   },
@@ -81,7 +81,7 @@ export const branches = [
     role: { ar: 'فرع الطلاب — مساحة للدراسة والروقان', en: 'The campus branch — study, sip, unwind' },
     address: { ar: 'جامعة العلوم والتكنولوجيا، الحديدة', en: 'University of Science & Technology, Al Hudaydah' },
     desc: { ar: 'يوم جامعي ❣️ — قهوة تسهر معك قبل الامتحان، وطاولات تصلح للمذاكرة والضحك.', en: 'University day ❣️ — coffee that stays up with you before the exam, tables made for study and laughter.' },
-    img: 'ig/uloom-sign',
+    img: 'ig/interior-drinks',
     maps: 'https://www.google.com/maps/search/?api=1&query=University+of+Science+and+Technology+Al+Hudaydah',
   },
   {
@@ -90,7 +90,7 @@ export const branches = [
     role: { ar: 'الفرع الترفيهي — للعائلات والسهرات', en: 'The park branch — families & late nights' },
     address: { ar: 'حديقة حديدة لاند، الحديدة', en: 'Hodeidah Land Park, Al Hudaydah' },
     desc: { ar: 'كشك مضيء وسط الحديقة، مشروبات مثلجة، وسهرة تمتد على مزاجك. #hodiedah_land', en: 'A glowing kiosk in the park, iced drinks, and evenings that stretch as long as your mood. #hodiedah_land' },
-    img: 'ig/interior-night',
+    img: 'derived/kiosk/front-counter',
     maps: 'https://www.google.com/maps/search/?api=1&query=Hodeidah+Land+Park',
   },
 ];
@@ -104,11 +104,11 @@ export const menuCategories = [
 ];
 
 export const menu = [
-  { id: 'peach-iced-tea', cat: 'signature', img: 'ig/peach-iced-tea', ig: true, badge: { ar: 'الأيقوني', en: 'Iconic' },
+  { id: 'peach-iced-tea', cat: 'signature', img: 'derived/ig/peach-portrait', ig: true, badge: { ar: 'الأيقوني', en: 'Iconic' },
     name: { ar: 'آيس تي خوخ', en: 'Peach Iced Tea' },
     desc: { ar: 'خطتنا الواضحة لمواجهة الحر ☀️ — شاي مثلّج بنكهة الخوخ، منعش، فاكهي، يعدّل مزاجك.', en: 'Our clear plan against the heat ☀️ — peach-infused iced tea, bright, fruity, mood-fixing.' },
     tags: ['cold', 'fruity'], price: '' },
-  { id: 'mojito-espresso', cat: 'signature', img: 'ig/interior-drinks', ig: true, badge: { ar: 'الغني عن التعريف', en: 'Needs no intro' },
+  { id: 'mojito-espresso', cat: 'signature', img: 'derived/drinks/basket-duo', ig: true, badge: { ar: 'الغني عن التعريف', en: 'Needs no intro' },
     name: { ar: 'موهيتو إسبريسو', en: 'Mojito Espresso' },
     desc: { ar: 'نعناع وليمون وصودا على شوت إسبريسو — تركيبة إسبرسو كوفي التي لا تُقلَّد.', en: 'Mint, lime and soda over a shot of espresso — the Espresso Coffee combination nobody copies.' },
     tags: ['cold', 'sparkling'], price: '' },
@@ -147,10 +147,10 @@ export const menu = [
     name: { ar: 'كولد برو', en: 'Cold Brew' },
     desc: { ar: 'نقع بطيء 18 ساعة — حلاوة طبيعية وحموضة ناعمة.', en: '18-hour slow steep — natural sweetness, soft acidity.' }, tags: ['cold', 'strong'], price: '' },
 
-  { id: 'mojito-classic', cat: 'tea', img: 'ig/interior-sound-of-coffee', badge: null,
+  { id: 'mojito-classic', cat: 'tea', img: 'kiosk/drinks-basket', badge: null,
     name: { ar: 'موهيتو كلاسيك', en: 'Classic Mojito' },
     desc: { ar: 'نعناع، ليمون، صودا وثلج مجروش.', en: 'Mint, lime, soda and crushed ice.' }, tags: ['cold', 'sparkling'], price: '' },
-  { id: 'iced-tea-lemon', cat: 'tea', img: 'ig/barista', badge: null,
+  { id: 'iced-tea-lemon', cat: 'tea', img: 'derived/ig/barista-clean', badge: null,
     name: { ar: 'آيس تي ليمون', en: 'Lemon Iced Tea' },
     desc: { ar: 'شاي أسود مثلّج بالليمون الطازج.', en: 'Black tea, iced, with fresh lemon.' }, tags: ['cold'], price: '' },
   { id: 'karak', cat: 'tea', img: 'stock/espresso-crema', badge: null,
@@ -160,9 +160,21 @@ export const menu = [
 
 /* Gallery — real Instagram content (from pack + live sync) */
 export const gallery = [
-  { img: 'ig/peach-iced-tea', size: 'big', ig: 'https://www.instagram.com/p/Db5upBgoG4F/', likes: 24, comments: 7,
+  { img: 'derived/kiosk/night-glow', size: 'big', pos: '50% 40%', ig: 'https://www.instagram.com/espre__sso', video: false,
+    cap: { ar: 'كشك حديدة لاند ليلاً — تحت النخيل', en: 'Hodeidah Land kiosk at night — under the palms' } },
+  { img: 'derived/drinks/basket-duo', size: 'wide', ig: 'https://www.instagram.com/espre__sso',
+    cap: { ar: 'موهيتو أزرق وأخضر — سلة التوصيل', en: 'Blue & green mojito — the delivery basket' } },
+  { img: 'kiosk/kiosk-dusk-bench', size: 'tall', ig: 'https://www.instagram.com/espre__sso',
+    cap: { ar: 'الغروب في حديقة حديدة لاند', en: 'Dusk at Hodeidah Land Park' } },
+  { img: 'derived/brand/cart-sign', size: '', ig: 'https://www.instagram.com/espre__sso',
+    cap: { ar: 'عربة إسبرسو — اللافتة الدائرية', en: 'The Espresso cart — round sign' } },
+  { img: 'derived/kiosk/front-counter', size: 'wide', ig: 'https://www.instagram.com/espre__sso',
+    cap: { ar: 'الكاونتر — ESPRESSO COFFEE', en: 'The counter — ESPRESSO COFFEE' } },
+  { img: 'kiosk/kiosk-park-wide', size: 'tall', pos: '50% 60%', ig: 'https://www.instagram.com/espre__sso',
+    cap: { ar: 'الطريق إلى الكشك — حديدة لاند', en: 'The path to the kiosk — Hodeidah Land' } },
+  { img: 'derived/ig/peach-portrait', size: 'tall', ig: 'https://www.instagram.com/p/Db5upBgoG4F/', likes: 24, comments: 7,
     cap: { ar: 'ايش خطتكم لمواجهة الحر؟ ☀️ خطتنا واضحة 🤎 ايس تي خوخ يعدل مزاجك', en: "What's your plan against the heat? Ours is clear — peach iced tea fixes your mood" } },
-  { img: 'ig/barista', size: 'wide', ig: 'https://www.instagram.com/espre__sso', likes: 299, comments: 56,
+  { img: 'derived/ig/barista-clean', size: 'wide', ig: 'https://www.instagram.com/espre__sso', likes: 299, comments: 56,
     cap: { ar: '𝙚𝙨𝙥𝙧𝙚𝙨𝙨𝙤... 🤍✨ — الأعلى تفاعلاً على الحساب', en: '𝙚𝙨𝙥𝙧𝙚𝙨𝙨𝙤... 🤍✨ — most-loved post on the account' } },
   { img: 'ig/interior-sound-of-coffee', size: 'tall', ig: 'https://www.instagram.com/reel/DZX1k4jgJ-3/', likes: 75, comments: 5, video: true,
     cap: { ar: 'صوت القهوة — إسبريسو كوفي', en: 'The sound of coffee — Espresso Coffee' } },

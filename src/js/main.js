@@ -1,7 +1,8 @@
 import '../styles/main.css';
 import { boot, $, $$, lang, t, L, fmtNum, icons, tileHTML } from './app.js';
 import { brand, menu, menuCategories, branches, gallery, igFeed, testimonials, founder } from './content.js';
-import { picture, src, esc, watchImages } from './images.js';
+import { picture, hero, src, esc, watchImages } from './images.js';
+import { initMotion } from './motion.js';
 import { waLink } from './app.js';
 
 const page = document.body.dataset.page;
@@ -24,7 +25,7 @@ function dishCard(d, i = 0) {
 
 function branchCard(b, i, featured = false) {
   return `<article id="${b.id}" class="branch glass glass--hover reveal ${featured && b.featured ? 'branch--featured' : ''}" style="--d:${i}">
-    <div class="branch__pic pic-wrap" style="position:relative">${picture(b.img, { alt: L(b.name), sizes: '(min-width: 64em) 33vw, 100vw', ratio: featured && b.featured ? undefined : '16 / 10' })}<span class="branch__num">0${i + 1}</span></div>
+    <div class="branch__pic pic-wrap" style="position:relative">${picture(b.img, { alt: L(b.name), sizes: '(min-width: 64em) 33vw, 100vw', ratio: '4 / 3' })}<span class="branch__num">0${i + 1}</span></div>
     <div class="branch__body">
       <span class="branch__role">${L(b.role)}</span>
       <h3>${L(b.name)}</h3>
@@ -43,9 +44,9 @@ function heroTitle(el, lines) {
   el.innerHTML = lines.map((l, i) => `<span class="line"><span style="--i:${i}" class="${i === lines.length - 1 ? 'text-gold' : ''}">${l}</span></span>`).join('');
 }
 
-function setHero(sel, id, pos) {
+function setHero(sel, id, pos, landscapeId) {
   const el = $(sel); if (!el) return;
-  el.innerHTML = picture(id, { alt: '', eager: true, sizes: '100vw', pos });
+  el.innerHTML = hero(id, landscapeId, { pos });
 }
 
 function splits() {
@@ -61,24 +62,24 @@ function marquee() {
   const words = lang === 'ar'
     ? ['مصنع الرَّوَقان', 'ذوق', 'مزاج', 'رَوَقان', 'آيس تي خوخ', 'موهيتو إسبريسو', 'صوت القهوة', 'لا تفقد الأمل', 'الحديدة']
     : ['Where the mood is brewed', 'Taste', 'Mood', 'Serenity', 'Peach Iced Tea', 'Mojito Espresso', 'Sound of Coffee', "Don't lose hope", 'Al Hudaydah'];
-  const item = words.map((w) => `<span style="font-family:var(--f-display);font-size:var(--fs-xl);color:var(--c-sand);white-space:nowrap;display:inline-flex;align-items:center;gap:3rem">${w}<span style="width:.4rem;height:.4rem;border-radius:50%;background:var(--c-gold);display:inline-block"></span></span>`).join('');
+  const item = words.map((w) => `<span class="marquee__item">${w}<i></i></span>`).join('');
   el.innerHTML = item + item;
 }
 
 /* ---------- pages ---------- */
 const pages = {
   home() {
-    setHero('[data-hero-media]', 'ig/peach-iced-tea', '50% 30%');
+    setHero('[data-hero-media]', 'derived/kiosk/night-glow', '50% 45%', 'kiosk/kiosk-night-canopy');
     heroTitle($('[data-hero-title]'), lang === 'ar' ? ['صوت القهوة', 'يبدأ من هنا.'] : ['The sound of coffee', 'starts here.']);
     marquee(); splits();
     const sig = $('[data-signature]'); if (sig) sig.innerHTML = menu.filter((m) => m.cat === 'signature').map(dishCard).join('');
     const br = $('[data-branches]'); if (br) br.innerHTML = branches.map((b, i) => branchCard(b, i)).join('');
-    const g = $('[data-gallery-home]'); if (g) g.innerHTML = gallery.slice(0, 8).map((it, i) => tileHTML(it, 'home', picture(it.img, { alt: L(it.cap), sizes: '(min-width: 64em) 33vw, 50vw' }))).join('');
+    const g = $('[data-gallery-home]'); if (g) g.innerHTML = gallery.slice(0, 8).map((it, i) => tileHTML(it, 'home', picture(it.img, { alt: L(it.cap), sizes: '(min-width: 64em) 33vw, 50vw', pos: it.pos }))).join('');
     const ts = $('[data-testimonials]'); if (ts) ts.innerHTML = testimonials.map((x, i) => `<figure class="glass pillar reveal" style="--d:${i}"><span class="pillar__icon">${icons.star}</span><blockquote style="margin-top:1rem;font-family:var(--f-display);font-size:var(--fs-md);color:var(--c-bone)">${L(x)}</blockquote><figcaption style="margin-top:.8rem;color:var(--c-gold);font-size:var(--fs-xs)">${L(x.by)}</figcaption></figure>`).join('');
   },
 
   menu() {
-    setHero('[data-hero-media]', 'ig/barista', '50% 30%');
+    setHero('[data-hero-media]', 'derived/ig/barista-clean', '50% 30%');
     heroTitle($('[data-hero-title]'), lang === 'ar' ? ['قائمة', 'إسبرسو كوفي'] : ['The Espresso', 'Coffee menu']);
     const tabs = $('[data-tabs]'), grid = $('[data-menu-grid]'); if (!tabs || !grid) return;
     const cats = [{ id: 'all', label: { ar: t('cta.all'), en: t('cta.all') } }, ...menuCategories];
@@ -96,7 +97,7 @@ const pages = {
   },
 
   story() {
-    setHero('[data-hero-media]', 'ig/mazen-interview', '50% 20%');
+    setHero('[data-hero-media]', 'ig/mazen-interview', '50% 20%', 'derived/ig/mazen-square');
     heroTitle($('[data-hero-title]'), lang === 'ar' ? ['بدأنا من فكرة…', 'فإلى أين تصل الفكرة؟'] : ['We started from an idea…', 'how far can it go?']);
     splits();
     const q = $('[data-quotes]'); if (q) q.innerHTML = founder.quotes.map((x, i) => `<blockquote class="quote glass reveal" style="--d:${i}"><p class="quote__text" style="font-size:var(--fs-lg)">${L(x)}</p><footer class="quote__by">— ${L(founder.name)}</footer></blockquote>`).join('');
@@ -104,22 +105,22 @@ const pages = {
   },
 
   branches() {
-    setHero('[data-hero-media]', 'ig/hodeidah-land-sign', '50% 50%');
+    setHero('[data-hero-media]', 'derived/kiosk/dusk-portrait', '50% 55%', 'derived/hero/kiosk-landscape');
     heroTitle($('[data-hero-title]'), lang === 'ar' ? ['ثلاثة أمزجة،', 'مدينة واحدة.'] : ['Three moods,', 'one city.']);
     const el = $('[data-branches]'); if (el) el.innerHTML = branches.map((b, i) => branchCard(b, i, true)).join('');
   },
 
   gallery() {
-    setHero('[data-hero-media]', 'ig/interior-logo-wall', '50% 50%');
+    setHero('[data-hero-media]', 'derived/kiosk/park-vista', '50% 60%', 'kiosk/kiosk-park-wide');
     heroTitle($('[data-hero-title]'), lang === 'ar' ? ['الأجواء', 'كما هي.'] : ['The ambience,', 'as it is.']);
-    const g = $('[data-gallery-all]'); if (g) g.innerHTML = gallery.map((it) => tileHTML(it, 'all', picture(it.img, { alt: L(it.cap), sizes: '(min-width: 64em) 33vw, 50vw' }))).join('');
+    const g = $('[data-gallery-all]'); if (g) g.innerHTML = gallery.map((it) => tileHTML(it, 'all', picture(it.img, { alt: L(it.cap), sizes: '(min-width: 64em) 33vw, 50vw', pos: it.pos }))).join('');
     const f = $('[data-igfeed]'); if (f) {
       f.innerHTML = igFeed.filter((p) => p.img).map((p) => `<a href="${p.url}" target="_blank" rel="noopener" class="tile ${p.video ? 'is-video' : ''} reveal reveal--scale" aria-label="${esc(p.caption.split('\n')[0])}">${picture(p.img, { alt: p.caption.split('\n')[0], sizes: '(min-width: 48em) 16vw, 33vw', ratio: '1' })}<div class="tile__over"><p>${esc(p.caption.split('\n')[0])}</p><div class="tile__stats">${p.likes ? `<span>${icons.heart}${fmtNum(p.likes)}</span>` : ''}${p.comments ? `<span>${icons.comment}${fmtNum(p.comments)}</span>` : ''}</div></div></a>`).join('');
     }
   },
 
   contact() {
-    setHero('[data-hero-media]', 'ig/interior-night', '50% 50%');
+    setHero('[data-hero-media]', 'derived/kiosk/night-square', '50% 50%', 'kiosk/kiosk-night-palm');
     heroTitle($('[data-hero-title]'), lang === 'ar' ? ['نسمعك،', 'ونسكب لك.'] : ['We hear you,', 'we pour for you.']);
     const el = $('[data-branches-compact]'); if (el) el.innerHTML = branches.map((b, i) => `<li class="glass pillar reveal" style="--d:${i}"><span class="pillar__icon">${icons.pin}</span><h3>${L(b.name)}</h3><p>${L(b.address)}</p><a href="${b.maps}" target="_blank" rel="noopener" class="btn btn--link" style="margin-top:.8rem">${t('cta.directions')} ${icons.arrow}</a></li>`).join('');
   },
@@ -130,3 +131,4 @@ const pages = {
 };
 
 boot(pages[page]);
+initMotion();
